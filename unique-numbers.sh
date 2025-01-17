@@ -12,4 +12,10 @@ if (( i % 3 == 0 ||  i % 5 == 0 )) && (( i % 15 != 0 )) ;
 then   echo "$i"
 fi
 done
+
+echo "write a name of a word"
+read w
+echo "write a letter you want to count in a word"
+read a
+echo "$w" | grep -o "$a"  | wc -l
 	
