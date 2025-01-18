@@ -1,10 +1,11 @@
 #!/bin/bash
-
+#
 ###########
 #Auther: Malik1
 #Version: v1
 ##the only numbers that are divisible by 3 or 5 and 15##
 
+set -x
 set -e
 
 for i in {1..100}; do
